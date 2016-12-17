@@ -221,8 +221,9 @@ namespace SEServerExtender
 #endif
             ApplicationLog.BaseLog.Info( versionMessage );
 
-            if (stableBuild)
-		    {
+            //if (stableBuild)
+            if (false)
+            {
                 BaseLog.Info("Detected \"Stable\" branch!");
                 BaseLog.Error("WARNING: THIS BUILD OF SESE IS NOT COMPATIBLE WITH STABLE BRANCH");
 		        if (SystemInformation.UserInteractive)
